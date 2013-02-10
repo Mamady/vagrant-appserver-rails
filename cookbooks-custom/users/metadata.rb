@@ -1,0 +1,5 @@
+maintainer        "Mohammad Forouzani"
+maintainer_email  "mohammad@forouzani.com"
+description       "Configures users and groups"
+version           "1.0.0"
+depends           "ruby-shadow"

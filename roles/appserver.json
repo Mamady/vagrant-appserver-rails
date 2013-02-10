@@ -1,0 +1,22 @@
+{
+  "name": "appserver",
+  "json_class": "Chef::Role",
+  "chef_type": "role",
+  "description": "Rails application server",
+  "run_list": [
+    "recipe[apt]",
+    "recipe[git]",
+    "recipe[build-essential]",
+    "recipe[rvm]",
+    "recipe[rails]", 
+    "recipe[users]"
+  ],
+  "default_attributes": {
+    "users": {
+      "superadmin": {
+        "ssh_keys": { "mfwindowslaptop": "ssh-rsa AAAAB3NzaC1yc2EAAAABJQAAAIEAoXmm1mSvO+N3v9m4kAPz0bU1BlHWyBVFNXBdY5PcuG8rjVV2h6JfbxuwTeNw9c49qGkdPCR6TSDLbeejXYmcJgb5veDBiyspnur4cvWvu/lHD70LWmqrBwQ1hSG35YD76HN6kkJpxdtQrOyNKRwktWYvC8icdG2ESCbEB4sNWfc=" },
+        "password": "$1$IzAxaTt6$qpwXgSLYZh2Fvs9aJ3eHM0"
+      }
+    }
+  }
+}

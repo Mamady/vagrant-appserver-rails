@@ -1,0 +1,7 @@
+maintainer        "Mohammad Forouzani"
+maintainer_email  "mohammad@forouzani.com"
+license           "GPL"
+description       "Configures rails application"
+version           "1.0"
+depends           "nginx"
+depends           "unicorn"
