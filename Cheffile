@@ -8,8 +8,4 @@ cookbook 'build-essential'
 cookbook 'rvm',
   :git => 'https://github.com/fnichol/chef-rvm.git',
   :ref => 'v0.8.6'
-#cookbook 'rails',
-#  :path => 'cookbook-custom/rails'
-#cookbook 'users',
-#  :path => 'cookbook-custom/users'
 
