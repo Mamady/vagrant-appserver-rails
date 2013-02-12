@@ -28,6 +28,10 @@ Port 3000 in the host computer is forwarded to port 80 in the virtual machine. T
 
 * TODO: complete this list
 
+* nginx
+
+* unicorn
+
 * Git
 
 * RVM
